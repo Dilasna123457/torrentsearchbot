@@ -127,7 +127,7 @@ async def inline_handlers(_, inline: InlineQuery):
             if not torrentList:
                 answers.append(
                     InlineQueryResultArticle(
-                        title="No Torrents Found!",
+                        title=w"No Torrents Found!",
                         description=f"Can't find YTS torrents for {query} !!",
                         input_message_content=InputTextMessageContent(
                             message_text=f"No YTS Torrents Found For `{query}`",
