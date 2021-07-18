@@ -243,7 +243,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                          f"__Uploaded by {torrentList[i]['UploadedBy']}__\n"
                                          f"__Uploaded {torrentList[i]['DateUploaded']}__\n"
                                          f"__Last Checked {torrentList[i]['LastChecked']}__\n\n"
-                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\n✅ Powered By @sl_bot_zone",
+                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\n✅ Powered By @ssdbotworld",
                             parse_mode="Markdown"
                         ),
                         reply_markup=InlineKeyboardMarkup(
