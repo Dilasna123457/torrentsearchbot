@@ -30,7 +30,7 @@ async def start_handler(_, message: Message):
         await message.reply_text(
             text="😋Hello, I am simple Torrent Search Bot!\n"
                  "✅I can search Torrent Magnetic Links from Inline.\n\n"
-                 "✅Made by @omintras 
+                 "✅Made by @Dilasnalithmantha 
             😉 I Am usefull",
             disable_web_page_preview=True,
             parse_mode="Markdown",
